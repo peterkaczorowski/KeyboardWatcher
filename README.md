@@ -23,3 +23,6 @@ I wrote a simple AppleScript that checks the active window under MacOS. If it is
 3. **keyboardwatcher.plist** - an XML plist script for a launch daemon to run the KeyboardWatcher in the background.
 4. **start.sh, stop.sh** - scripts to load and unload the KeyboardWatcher as a background job.
 
+## References
+
+[Ubuntu/Fedora: Tilde switched to angle bracket - Parallels Forum](https://forum.parallels.com/threads/ubuntu-fedora-tilde-switched-to-angle-bracket.358480/)
