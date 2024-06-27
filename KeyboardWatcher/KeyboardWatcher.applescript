@@ -38,9 +38,11 @@ set currentWindowName to ""
 
 repeat
 	set currentWindowName to getActiveWindowName()
+	-- do shell script "echo 'Current frontAppName name: " & frontAppName & "' >> /tmp/script.log"
+	-- say frontAppName
 	
 	if currentWindowName is not previousWindowName then
-		if {currentWindowName starts with "UbuntuVM"} then
+		if {frontAppName is equal to "prl_client_app" and currentWindowName starts with "UbuntuVM"} then
 			setKeyboardLayout("Polish")
 		else
 			setKeyboardLayout("PolishPro")
