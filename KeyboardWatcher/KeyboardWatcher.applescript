@@ -40,7 +40,7 @@ repeat
 	set currentWindowName to getActiveWindowName()
 	
 	if currentWindowName is not previousWindowName then
-		if {currentWindowName starts with "Ubuntu"} then
+		if {currentWindowName starts with "UbuntuVM"} then
 			setKeyboardLayout("Polish")
 		else
 			setKeyboardLayout("PolishPro")
