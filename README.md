@@ -16,6 +16,7 @@ I wrote a simple AppleScript that checks the active window under MacOS. If it is
 1. Both Polish and Polish QWERTZ keyboards must be available in MacOS.
 2. The InputSourceSelector program must be installed and should be available in the `/usr/local/bin` directory.
 3. The AppleScript KeyboardWatcher must be downloaded and installed, e.g., in the `/usr/local/Cellar/KeyboardWatcher/KeyboardWatcher.scpt` directory. If it is in another directory, the plist must be adjusted later to allow the script to run in the background.
+4. The Parallels Ubuntu VM should have a name like 'UbuntuVM 22.04'. KeyboardWatcher detects windows named 'UbuntuVM*'.
 
 ## Files in the package of workaround
 1. **InputSourceSelector** - a program that allows changing the keyboard layout.
